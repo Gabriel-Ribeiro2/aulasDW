@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="utf-8">
+        <title>Forms com JS</title>
+        <link rel="stylesheet" href="css/reset.css">
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+        <h1>Lista de Tarefas</h1>
+        <!-- Utilizamos a tag fomr para delimitar os formulários 
+         action é para onde vão os dados do formulário
+        # utilizamos para tratar dados no mesmo arquivo -->
+        <form action="#" id="formTarefa">
+            <input type="text" id="inputTarefa" 
+            placeholder="Digite a Tarefa..." required>
+            <button type="submit">Adicionar Tarefa</button>
+        </form>
+
+        <ul id="listaTarefas"></ul>
+        <script src="js/script.js"></script>
+    </body>
+</html>
